@@ -34,7 +34,7 @@ map<string, string> read_config(string filename) {
         myfile.close();
     }
     else {
-        cout << "Error with opening the file!" << endl;
+        cerr << "Error with opening the file!" << endl;
     }
     return mp;
 };
