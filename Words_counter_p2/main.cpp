@@ -6,7 +6,6 @@
 #include <mutex>
 #include <thread>
 #include <vector>
-
 #include "measuring_time.h"
 #include <condition_variable>
 #include <atomic>
